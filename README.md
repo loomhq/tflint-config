@@ -1,4 +1,4 @@
-# tflint
+# tflint config
 
 This **public** repo holds a shared tflint file for terraform at loom. Repos can use it by pulling it directly or by configuring github actions:
 
@@ -9,7 +9,7 @@ This **public** repo holds a shared tflint file for terraform at loom. Repos can
 - name: Load TFLint Config
   uses: terraform-linters/tflint-load-config-action@v0.1.0
   with:
-    source-repo: loomhq/tflint
+    source-repo: loomhq/tflint-config
 - name: Terraform Lint
   run: |
     tflint --version
