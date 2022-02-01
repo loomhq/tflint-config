@@ -11,8 +11,5 @@ This **public** repo holds a shared tflint file for terraform at loom. Repos can
   with:
     source-repo: loomhq/tflint-config
 - name: Terraform Lint
-  run: |
-    tflint --version
-    tflint --init
-    tflint -f compact
+  run: tflint --version && tflint --init && tflint -f compact
 ```
