@@ -21,3 +21,6 @@ rule "terraform_required_version" {
 rule "terraform_required_providers" {
   enabled = false
 }
+rule "terraform_standard_module_structure" {
+  enabled = false
+}
